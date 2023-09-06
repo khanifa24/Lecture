@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance CSS</title>
+    <style>
+        /* ini display
+        .block-example{
+            display: block;
+        }
+        .inline-block-example {
+            display: inline-block;
+        }
+        .inline-example {
+            display: inline;
+        }
+        .none-example {
+            display: none;
+        }
+        */
+        .static {
+            position: static;
+            background-color: aqua;
+        }
+        .absolute {
+            position: absolute;
+            background-color: chocolate;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: 0 auto;
+            /* margin-top: 0px;
+            margin-right: auto;
+            margin-bottom: 0px;
+            margin-left: auto: */
+            height: 50px;
+            width: 100px;
+        }
+        .fixed {
+            position: fixed;
+            background-color: chartreuse;
+        }
+        .relative {
+            position: relative;
+            background-color: blueviolet;
+        }
+        /* Default styles */
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: teal;
+            margin: 10px;
+        }
+
+        /* media query for smaller screens */
+        @media (max-width: 600px) {
+            .box{
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!--
+    <div class="block-example">ini block</div>
+    <div class="inline-example">ini inline</div>
+    <div class="inline-block-example">ini inline block</div>
+    <div class="none-example">ini none----saingan dengan xyz company</div>
+        -->
+      
+        <div class="absolute">absolute</div>
+        <div class="fixed">fixed</div>
+        <div class="static">static</div>
+        <div class="relative">relative</div>
+        <br>
+        <div class="box">box</div>
+</body>
+</html>
